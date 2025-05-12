@@ -31,7 +31,7 @@ echo "Dommage... Le nombre était $nombre_mystere. Essayez encore !"
 
 #!/bin/bash : Indique que le script utilise Bash.
 
-#nombre_mystere=42 : Définit le nombre à deviner.
+#nombre_mystere=40 : Définit le nombre à deviner.
 
 #essais_max=10 : Nombre maximum de tentatives.
 
