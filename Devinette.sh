@@ -38,10 +38,7 @@ echo "Dommage... Le nombre était $nombre_mystere. Essayez encore !"
 #essais=0 : Initialise le compteur d'essais.
 #while ((essais < essais_max)) : Continue tant qu'il reste des essais.
 #while true : Boucle infinie pour valider l'entrée
-#[[ -z "$proposition" ]] : Vérifie si l'entrée est vide.
-
-#=~ ^[0-9]+$ : Vérifie que l'entrée est un nombre entier.
-
+#[[ "$proposition" =~ ^[0-9]+$]]  : Vérifie que l'entrée est un nombre entier.
 #((proposition < 1 || proposition > 100)) : Vérifie l'intervalle 1-100.
 #((essais++)) : Incrémente le compteur.
 #Plus grand ! si la proposition est trop petite.
